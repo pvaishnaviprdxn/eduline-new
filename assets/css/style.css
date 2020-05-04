@@ -328,19 +328,21 @@ nav ul li a:hover{
 /*slider styling end*/
 /*learn today1 style start*/
 .learn-today1{ margin:70px 0; }
-.about-learn-today{ 
+.about-learn-today,.about-oc{ 
     display: flex; 
     width: 86%;
     margin: 0 auto;
 }
-.about-learn-today h3 {
+.about-learn-today h3,
+.about-oc h3 {
     width: 350px;
     color: rgb(37,43,51);
     font-size: 38px;
     font-weight: bold;
 }
 
-.about-learn-today p{
+.about-learn-today p,
+.about-oc p{
     width: 700px;
     padding-left: 30px;
     padding-top: 8px;
@@ -358,7 +360,6 @@ nav ul li a:hover{
 }
 
 .imgL:nth-child(1){ margin-right: 30px; }
-
 .imgL:nth-child(2),
 .imgL:nth-child(3){ margin-right: 30px; }
 
@@ -427,6 +428,111 @@ nav ul li a:hover{
 }
 
 /*learn today2 style end*/
+
+/* online-courses start*/
+.about-oc{
+    margin-top: 80px;
+}
+.about-oc h3{
+    padding-top:20px;
+    font-size: 36px;
+    color: rgb(37,43,51);
+}
+/* online-courses end*/
+/* filter section start*/
+.btnlist{
+    width: 86%;
+    margin: 20px auto;
+}
+.butn{
+    margin-right: 20px;
+    color: rgb(37,43,51);
+}
+
+.butn.active,
+.butn:hover{ color: rgb(0,211,219); }
+
+.img-row{
+    width: 86%;
+    margin: 0 auto;
+}
+
+.img-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column:nth-child(1),
+.column:nth-child(2),
+.column:nth-child(3),
+.column:nth-child(5),
+.column:nth-child(6),
+.column:nth-child(7){ margin-right: 28px; }
+
+.column{
+    float: left;
+    margin-bottom: 28px;
+}
+
+.content-fil,.fil-img{ width: 245px; }
+
+.fil-img img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .86s ease-out;
+    -webkit-transition: .86s ease-out;
+    -ms-transition: .86s ease-out;
+    -moz-transition: .86s ease-out;
+    -o-transition: .86s ease-out;
+}
+
+.fil-about{ padding: 20px; }
+
+.instructor{
+    font-size: 14px;
+    color:rgb(0,211,219);
+    font-weight: bold;
+    display: block;
+    padding: 5px 0;
+}
+.course-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.remark{padding: 15px 0;}
+.remark li{ width: 60px;}
+
+.people .fas.fa-user,
+.likes .far.fa-thumbs-up{
+    padding: 0 3px;
+    color: rgb(37,43,51);
+}
+
+.people .fas.fa-user:hover,
+.likes .far.fa-thumbs-up:hover{ color: rgb(0,211,219);}
+
+.price a{ 
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: rgb(37,43,51);
+    color: rgb(255,255,255);
+}
+.show{ display: block;}
+/* filter section start*/
+/*form section start*/
+.form-image{
+    width: 100%;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    display: inline-block;
+}
+.admission{
+    width: 86%;
+    margin: 0 auto;
+}
 /*=================================
   main styling ends here
 =================================*/
