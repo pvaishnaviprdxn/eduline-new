@@ -264,19 +264,67 @@ nav ul li a:hover{
 /*=================================
   main styling starts here
 =================================*/
+/*banner style start*/
 .banner{
     width: 100%;
     background-image: url(../images/banner.png);
     background-size: cover;
-    position: relative;
-    z-index: -1;
+}
+/*banner style end*/
+.slides li{ 
+    width: 100%;
+    padding-top: 150px;
+    display: none;
+    text-align: center;
 }
 
+.slide.showing{ display: block; }
 
+.slides li h2{
+    padding: 0 200px;
+    color: white;color: rgb(255,255,255);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
 
+.slides li p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(255,255,255);
+}
 
+.slides li a{
+    cursor: pointer;
+    padding: 10px 25px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: white;
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight: bold;
+}
 
+.slides li a:hover{
+    background-color: rgb(243,0,103);
+    color: rgb(255,255,255);
+    -moz-transition:all .85s ease-in-out;
+    -webkit-transition:all .85s ease-in-out;
+    -ms-transition:all .85s ease-in-out;
+    -o-transition:all .85s ease-in-out;
+    transition:all .85s ease-in-out;
+}
 
+.slider-dot{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center; 
+}
+
+.fas.fa-circle.active,
+.fas.fa-circle:hover{ color: rgb(243,0,103); }
+.fas.fa-circle{ color: rgb(255,255,255); }
 
 /*=================================
   main styling ends here
