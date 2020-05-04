@@ -342,7 +342,7 @@ nav ul li a:hover{
 }
 
 .about-learn-today p,
-.about-oc p{
+.about-oc p,.about-students p{
     width: 700px;
     padding-left: 30px;
     padding-top: 8px;
@@ -433,10 +433,11 @@ nav ul li a:hover{
 .about-oc{
     margin-top: 80px;
 }
-.about-oc h3{
+.about-oc h4{
     padding-top:20px;
-    font-size: 36px;
+    font-size: 30px;
     color: rgb(37,43,51);
+    font-weight: bold;
 }
 /* online-courses end*/
 /* filter section start*/
@@ -634,8 +635,71 @@ form input[type="password"]{
     background-color:rgb(252, 225, 236);
     color: rgb(243,0,103);
 }   
-   
-    
+  
+/*student section start*/
+.students{ 
+  width: 86%;
+  margin: 70px auto;
+}
+.about-students{ display: flex; }
+
+.about-students h4{
+    padding-top:20px;
+    font-size: 30px;
+    color: rgb(37,43,51);
+    font-weight: bold;
+}
+
+/*student-slider start*/
+.slides2 li{ display: none; }
+
+.slide2.showing{ display: block; }
+
+.stud-img {
+    width: 100px;
+    height: 100px;
+    background: wheat;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.slide2 p:nth-child(2) {
+    padding: 30px 220px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(136, 138, 138);
+}
+
+.stud-name {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 487px;
+}
+.slide2 p:nth-child(4) {
+    text-align: center;
+    padding-top: 12px;
+    color: rgb(136, 138, 138);
+}
+
+.company { color: rgb(0,211,219); }
+
+.rating { 
+    text-align: center;
+    padding: 20px 0;
+}
+.slides2 .rating ul li { display: inline; }
+.fa-star { color: rgb(243,0,103); }
+.fa-star.stud-rate { color: rgba(219, 217, 217, 0.863); }
+.slider2-dot { text-align: center; }
+.slider2-dot .fas.fa-circle { color: rgba(219, 217, 217, 0.863); }
+
+.slider2-dot .fas.fa-circle:hover,
+.slider2-dot .fas.fa-circle.active { color: rgb(37,43,51); }
+
+
+
    
    
     
@@ -647,7 +711,154 @@ form input[type="password"]{
 /*=================================
   footer styling starts here
 =================================*/ 
+footer{
+    background-color: rgb(37,43,51);
+    padding-bottom: 50px;
+} 
+.footr1{
+    width: 86%;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(72, 81, 92);
+}
+.footer-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.ff1{
+    width: 217px;
+    margin-right: 78px;
+}
+h3{ margin-bottom: 25px; }
+.ff1 h3 a img{ width: 80px; }
+.Address,
+.femail,
+.fphone{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.ftitle{
+    color: rgb(0,211,219);
+    font-size: 16px;
+    line-height: 1;
+}
+.location,
+.fmail,
+.fphn{
+    color: rgb(118, 129, 150);
+    font-size: 14px;
+    line-height: 1.4;
+}
+.location:hover,
+.fmail:hover,
+.fphn:hover,
+.pages li a:hover{
+    text-decoration: underline;
+    color: rgb(255,255,255);
+}
 
+.fmail,
+.fphn{display: block;}
+.ff2{width:150px;}
+
+.ptitle,
+.fart-title,
+.ntitle{
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+.pages ul,
+.farticles{margin-top: 35px;}
+
+.pages li{
+    display: block;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.pages li a,
+.art1,
+.art2,
+.adate{
+    color: rgb(118, 129, 150);
+    font-size: 14px;
+}
+.ff3{display: inline-block;}
+.farticles li{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.fimg img{
+    width: 110px;
+    height: 60px;
+}
+.fimg{
+    width: 110px;
+    float: left;
+}
+.artbox{
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.art1,
+.art2{
+    width: 150px;
+    font-size: 13px;
+    color: rgb(255,255,255);
+}
+.adate{
+    display:block;
+    font-size: 11px;
+}
+.art1:hover,
+.art2:hover{
+    color: rgb(243,0,103);
+    text-decoration: underline;
+}  
+.ff4{
+    width: 348px;
+}
+.nbox{
+    width: 88%;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(72, 81, 92);
+    margin-top: 32px;
+    padding: 26px 20px;
+}
+.nname{
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+
+.footr2{
+    width: 86%;
+    margin: 0 auto;
+}
+.copyright{display: inline-block;}
+.cpy{color:rgb(118, 129, 150); }
+.w3L{ color: rgb(255,255,255); }
+.ibck{
+    background-color:rgb(99, 108, 124,0.7);
+    border-radius: 26px;
+}
+.ibck a{padding: 8px 0;}
+.footr2 .social{
+    float: right;
+    padding: 0;
+}
+.toup{display: block;}
+.toup a{
+    border-radius: 30px;
+    background-color: rgb(243,0,103);
+    color: white;
+    padding: 6px 10px;
+    
+}
 
 
 
