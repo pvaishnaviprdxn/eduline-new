@@ -325,6 +325,51 @@ nav ul li a:hover{
 .fas.fa-circle.active,
 .fas.fa-circle:hover{ color: rgb(243,0,103); }
 .fas.fa-circle{ color: rgb(255,255,255); }
+/*slider styling end*/
+/*learn today1 style start*/
+.learn-today1{ margin:70px 0; }
+.about-learn-today{ 
+    display: flex; 
+    width: 86%;
+    margin: 0 auto;
+}
+.about-learn-today h3 {
+    width: 350px;
+    color: rgb(37,43,51);
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.about-learn-today p{
+    width: 700px;
+    padding-left: 30px;
+    padding-top: 8px;
+    float: right;
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(116, 110, 110);
+}
+
+.learn-images{
+    display: flex;
+    width: 86%;
+    margin: 50px auto;
+}
+
+.imgL:nth-child(1){ margin-right: 30px; }
+
+.imgL:nth-child(2),
+.imgL:nth-child(3){ margin-right: 30px; }
+
+.imgL,
+.imgL img{
+ border-radius: 5px; 
+ height: 290px; 
+}
+/*learn today1 style end*/
+/*learn today2 style start*/
+
 
 /*=================================
   main styling ends here
