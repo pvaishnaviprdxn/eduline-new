@@ -528,11 +528,118 @@ nav ul li a:hover{
     background-image: url(../images/banner.png);
     background-size: cover;
     display: inline-block;
+    padding: 70px 0;
 }
-.admission{
+.form-wrap{
     width: 86%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
+.admission{ 
+    width: 50%;
+    float: left;
+}
+
+.welcome{ 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+.ad-title h3{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: rgb(255,255,255);
+}
+
+.training{
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(255,255,255);
+}
+
+.benefits{ padding-top: 40px; }
+
+.empower,.access{
+    color: white;
+    width: 250px;
+   
+}
+.b-bckgnd{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(219, 217, 217, 0.329);
+    position: relative;
+    z-index: 1
+}
+
+.b-bckgnd a{
+    padding: 13px 13px;
+    font-size: 24px;
+    color: white;
+}
+
+.etitle{
+    line-height: 2;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+
+.eabout{ font-size: 14px; }
+
+.admission-form{
+    width: 50%;
+    float: left;
+    background-color: white;
+    border-radius: 7px;
+}
+
+form{
+    width: 400px;
+    margin: 50px auto;
+}
+
+label{
+    padding-bottom: 10px;
+    display: block;
+    font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    height: 24px;
+    width: 380px;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-color: rgb(190,195,195);
+    background-color: rgb(249,250,251);
+}
+
+.applyn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(243,0,103);
+    color: rgb(249,250,251);
+    font-weight: bold;
+    width: 85px;
+}
+
+.applyn:hover{
+    background-color:rgb(252, 225, 236);
+    color: rgb(243,0,103);
+}   
+   
+    
+   
+   
+    
+
 /*=================================
   main styling ends here
 =================================*/
