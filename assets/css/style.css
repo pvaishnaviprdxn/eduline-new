@@ -100,16 +100,161 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 98%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+header { background-color: rgb(37,43,51); }
 
+/*sign-in button styling start*/
+.Sign-In { 
+    background-color: rgb(243,0,103);
+    display: inline-block;
+}
 
+.Sign-In a {
+    padding: 10px 20px;
+    font-size: 11px;
+    color: white;
+}
 
+.Sign-In span { 
+    padding-left: 1px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
 
+.Sign-In a:hover{
+    color: rgb(243,0,103);
+    background-color:white;
+    -moz-transition:all .85s ease-in-out;
+    -webkit-transition:all .85s ease-in-out;
+    -ms-transition:all .85s ease-in-out;
+    -o-transition:all .85s ease-in-out;
+    transition:all .95s ease-in-out;
+}
+/*sign-in button styling end*/
+/*social icons styling start*/
+.social-icons{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.social-icons ul li a {
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
+
+.social-icons ul li { padding: 0px 8px; }
+.social-icons ul li a:hover{ color: rgb(243,0,103); }
+/*social icons styling end*/
+/*contact styling start*/
+.cont-details{ 
+    float: right;
+    padding-top: 7px;
+}
+
+.phone {
+    display: inline;
+    padding: 0 50px;
+}
+
+.email{ display: inline; }
+
+.phone a,
+.email a {
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
+
+.phone a:hover,
+.email a:hover { color: rgb(243,0,103); }
+/*contact styling end*/
+/*head2 styling start*/
+.head2{
+    width: 98%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+/*head2 styling end*/
+/*logo styling start*/
+.logo{
+    width: 100px;
+    display: inline-block;
+}
+
+h1 a img{ 
+    width: 100px;
+    height: 40px;
+}
+/*logo styling end*/
+/*nav menu styling start*/
+.menu{
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.fas.fa-bars{ display: none; }
+
+nav ul li {
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li a{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 9px;
+}
+.homeactive,
+nav ul li a:hover{
+    border-bottom: solid;
+    border-bottom-color: rgb(243,0,103);
+}
+
+.cap{ text-transform: uppercase; }
+
+/*nav menu styling end*/
+/*search-bar styling start*/
+.search-bar {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 4px;
+    float: right;
+}
+
+.ins-search,
+.insert-txt,
+.search-btn{ display: inline; }
+
+.search-btn a{
+    padding: 7px 18px;
+    background-color: rgb(243,0,103);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.insert-txt input[type="text"]{
+    width: 120px;
+    padding: 3px;
+    border: none;
+    background: transparent;
+}
+
+.insert-txt ::placeholder{ color: white; }
+
+.search-btn a:hover {
+    background-color: white;
+    color: rgb(243,0,103);
+}
+
+/*search-bar styling start*/
 
 /*=================================
   Header styling ends here
