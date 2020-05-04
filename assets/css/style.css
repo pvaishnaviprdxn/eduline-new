@@ -178,6 +178,7 @@ header { background-color: rgb(37,43,51); }
     width: 98%;
     margin: 0 auto;
     padding: 25px 0;
+    position: absolute;
 }
 /*head2 styling end*/
 /*logo styling start*/
@@ -263,7 +264,13 @@ nav ul li a:hover{
 /*=================================
   main styling starts here
 =================================*/
-
+.banner{
+    width: 100%;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
 
 
 
