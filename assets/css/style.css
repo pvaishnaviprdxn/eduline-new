@@ -127,7 +127,7 @@ header { background-color: rgb(37,43,51); }
     font-weight: 300;
 }
 
-.Sign-In a:hover{
+.Sign-In a:hover {
     color: rgb(243,0,103);
     background-color:white;
     -moz-transition:all .85s ease-in-out;
@@ -138,7 +138,7 @@ header { background-color: rgb(37,43,51); }
 }
 /*sign-in button styling end*/
 /*social icons styling start*/
-.social-icons{
+.social-icons {
     display: inline-block;
     padding: 0 20px;
 }
@@ -152,7 +152,7 @@ header { background-color: rgb(37,43,51); }
 .social-icons ul li a:hover{ color: rgb(243,0,103); }
 /*social icons styling end*/
 /*contact styling start*/
-.cont-details{ 
+.cont-details { 
     float: right;
     padding-top: 7px;
 }
@@ -162,7 +162,7 @@ header { background-color: rgb(37,43,51); }
     padding: 0 50px;
 }
 
-.email{ display: inline; }
+.email { display: inline; }
 
 .phone a,
 .email a {
@@ -174,7 +174,7 @@ header { background-color: rgb(37,43,51); }
 .email a:hover { color: rgb(243,0,103); }
 /*contact styling end*/
 /*head2 styling start*/
-.head2{
+.head2 {
     width: 98%;
     margin: 0 auto;
     padding: 25px 0;
@@ -182,46 +182,48 @@ header { background-color: rgb(37,43,51); }
 }
 /*head2 styling end*/
 /*logo styling start*/
-.logo{
+.logo {
     width: 100px;
     display: inline-block;
 }
 
-h1 a img{ 
+h1 a img { 
     width: 100px;
     height: 40px;
 }
 /*logo styling end*/
 /*nav menu styling start*/
-.menu{
+.menu {
     display: inline-block;
     margin-left: 180px;
 }
 
-.fas.fa-bars{ display: none; }
+.fas.fa-bars { display: none; }
 
 nav ul li {
     width: 100px;
     text-align: center;
 }
 
-nav ul li a{
+nav ul li a {
     font-size: 12px;
     font-weight: bold;
     color: white;
     padding: 9px;
 }
+
 .homeactive,
-nav ul li a:hover{
+nav ul li a:hover {
     border-bottom: solid;
     border-bottom-color: rgb(243,0,103);
 }
 
-.cap{ text-transform: uppercase; }
+.cap { text-transform: uppercase; }
 
 /*nav menu styling end*/
 /*search-bar styling start*/
 .search-bar {
+    height: 30px;
     border: 2px solid;
     border-color: white;
     border-radius: 5px;
@@ -231,9 +233,9 @@ nav ul li a:hover{
 
 .ins-search,
 .insert-txt,
-.search-btn{ display: inline; }
+.search-btn { display: inline; }
 
-.search-btn a{
+.search-btn a {
     padding: 7px 18px;
     background-color: rgb(243,0,103);
     color: white;
@@ -241,14 +243,14 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-.insert-txt input[type="text"]{
+.insert-txt input[type="text"] {
     width: 120px;
     padding: 3px;
     border: none;
     background: transparent;
 }
 
-.insert-txt ::placeholder{ color: white; }
+.insert-txt ::placeholder { color: white; }
 
 .search-btn a:hover {
     background-color: white;
@@ -265,22 +267,22 @@ nav ul li a:hover{
   main styling starts here
 =================================*/
 /*banner style start*/
-.banner{
+.banner {
     width: 100%;
     background-image: url(../images/banner.png);
     background-size: cover;
 }
 /*banner style end*/
-.slides li{ 
+.slides li { 
     width: 100%;
     padding-top: 150px;
     display: none;
     text-align: center;
 }
 
-.slide.showing{ display: block; }
+.slide.showing { display: block; }
 
-.slides li h2{
+.slides li h2 {
     padding: 0 200px;
     color: white;color: rgb(255,255,255);
     font-size: 50px;
@@ -288,14 +290,14 @@ nav ul li a:hover{
     text-align: center;
 }
 
-.slides li p{
+.slides li p {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
     color: rgb(255,255,255);
 }
 
-.slides li a{
+.slides li a {
     cursor: pointer;
     padding: 10px 25px;
     border: 2px solid;
@@ -306,7 +308,7 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-.slides li a:hover{
+.slides li a:hover {
     background-color: rgb(243,0,103);
     color: rgb(255,255,255);
     -moz-transition:all .85s ease-in-out;
@@ -316,23 +318,26 @@ nav ul li a:hover{
     transition:all .85s ease-in-out;
 }
 
-.slider-dot{
+.slider-dot {
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center; 
 }
 
 .fas.fa-circle.active,
-.fas.fa-circle:hover{ color: rgb(243,0,103); }
-.fas.fa-circle{ color: rgb(255,255,255); }
+.fas.fa-circle:hover { color: rgb(243,0,103); }
+
+.fas.fa-circle { color: rgb(255,255,255); }
 /*slider styling end*/
 /*learn today1 style start*/
-.learn-today1{ margin:70px 0; }
-.about-learn-today,.about-oc{ 
+.learn-today1 { margin:70px 0; }
+
+.about-learn-today,.about-oc { 
     display: flex; 
     width: 86%;
     margin: 0 auto;
 }
+
 .about-learn-today h3,
 .about-oc h3 {
     width: 350px;
@@ -342,7 +347,7 @@ nav ul li a:hover{
 }
 
 .about-learn-today p,
-.about-oc p,.about-students p{
+.about-oc p,.about-students p {
     width: 700px;
     padding-left: 30px;
     padding-top: 8px;
@@ -353,51 +358,52 @@ nav ul li a:hover{
     color: rgb(116, 110, 110);
 }
 
-.learn-images{
+.learn-images {
     display: flex;
     width: 86%;
     margin: 50px auto;
 }
 
-.imgL:nth-child(1){ margin-right: 30px; }
+.imgL:nth-child(1) { margin-right: 30px; }
+
 .imgL:nth-child(2),
-.imgL:nth-child(3){ margin-right: 30px; }
+.imgL:nth-child(3) { margin-right: 30px; }
 
 .imgL,
-.imgL img{
+.imgL img {
  border-radius: 5px; 
  height: 290px; 
 }
 /*learn today1 style end*/
 /*learn today2 style start*/
-.l-facilities{ background-color: rgb(249,250,251); }
-.learn-today2{ padding: 80px 0; }
+.l-facilities { background-color: rgb(249,250,251); }
+.learn-today2 { padding: 80px 0; }
 
-.facility-flex{ 
+.facility-flex { 
     width: 86%;
     margin: 0 auto;
     padding: 50px 0; 
     display: flex;
 }
 
-.facility-icon a{ 
+.facility-icon a { 
     color: rgb(243,0,103);
     font-size: 26px;  
 }
 
-.about-fac p:nth-child(2){  
+.about-fac p:nth-child(2) {  
     color: rgb(136, 138, 138); 
     font-size: 14px;
     padding-right:20px;
 }
 
-.fac-name{ 
+.fac-name { 
     font-size: 16px;
     font-weight: bold;
     line-height: 2;
 }
 
-.bck-img{
+.bck-img {
     width: 86%;
     height: 150px;
     border-radius: 5px;
@@ -406,20 +412,20 @@ nav ul li a:hover{
     background-size: cover;
 }
 
-.statlist li{
+.statlist li {
     width: 24%;
     padding: 32px 0;
     text-align: center;
 }
 
-.count{ 
+.count { 
     font-size: 50px;
     font-weight: bold;
     color: white;
     display: block;
 }
 
-.status{
+.status {
     padding: 6px 0;
     color: white;
     font-size: 15px;
@@ -430,10 +436,10 @@ nav ul li a:hover{
 /*learn today2 style end*/
 
 /* online-courses start*/
-.about-oc{
+.about-oc {
     margin-top: 80px;
 }
-.about-oc h4{
+.about-oc h4 {
     padding-top:20px;
     font-size: 30px;
     color: rgb(37,43,51);
@@ -441,24 +447,24 @@ nav ul li a:hover{
 }
 /* online-courses end*/
 /* filter section start*/
-.btnlist{
+.btnlist {
     width: 86%;
     margin: 20px auto;
 }
-.butn{
+.butn {
     margin-right: 20px;
     color: rgb(37,43,51);
 }
 
 .butn.active,
-.butn:hover{ color: rgb(0,211,219); }
+.butn:hover { color: rgb(0,211,219); }
 
-.img-row{
+.img-row {
     width: 86%;
     margin: 0 auto;
 }
 
-.img-row:after{
+.img-row:after {
     content: "";
     display: table;
     clear: both;
@@ -468,16 +474,16 @@ nav ul li a:hover{
 .column:nth-child(3),
 .column:nth-child(5),
 .column:nth-child(6),
-.column:nth-child(7){ margin-right: 28px; }
+.column:nth-child(7) { margin-right: 28px; }
 
-.column{
+.column {
     float: left;
     margin-bottom: 28px;
 }
 
-.content-fil,.fil-img{ width: 245px; }
+.content-fil,.fil-img { width: 245px; }
 
-.fil-img img:hover{
+.fil-img img:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -490,32 +496,32 @@ nav ul li a:hover{
     -o-transition: .86s ease-out;
 }
 
-.fil-about{ padding: 20px; }
+.fil-about { padding: 20px; }
 
-.instructor{
+.instructor {
     font-size: 14px;
     color:rgb(0,211,219);
     font-weight: bold;
     display: block;
     padding: 5px 0;
 }
-.course-name{
+.course-name {
     font-size: 18px;
     font-weight: bold;
 }
-.remark{padding: 15px 0;}
-.remark li{ width: 60px;}
+.remark { padding: 15px 0; }
+.remark li { width: 60px;}
 
 .people .fas.fa-user,
-.likes .far.fa-thumbs-up{
+.likes .far.fa-thumbs-up {
     padding: 0 3px;
     color: rgb(37,43,51);
 }
 
 .people .fas.fa-user:hover,
-.likes .far.fa-thumbs-up:hover{ color: rgb(0,211,219);}
+.likes .far.fa-thumbs-up:hover { color: rgb(0,211,219);}
 
-.price a{ 
+.price a { 
     padding: 6px 12px;
     border-radius: 6px;
     background-color: rgb(37,43,51);
@@ -524,49 +530,50 @@ nav ul li a:hover{
 .show{ display: block;}
 /* filter section start*/
 /*form section start*/
-.form-image{
+.form-image {
     width: 100%;
     background-image: url(../images/banner.png);
     background-size: cover;
     display: inline-block;
     padding: 70px 0;
 }
-.form-wrap{
+.form-wrap {
     width: 86%;
     margin: 0px auto;
 }
-.admission{ 
+
+.admission { 
     width: 50%;
     float: left;
 }
 
-.welcome{ 
+.welcome { 
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
     color: rgb(255,255,255);
 }
-.ad-title h3{
+.ad-title h3 {
     font-size: 38px;
     font-weight: bold;
     padding-top: 15px;
     color: rgb(255,255,255);
 }
 
-.training{
+.training {
     font-size: 14px;
     padding-top: 10px;
     color: rgb(255,255,255);
 }
 
-.benefits{ padding-top: 40px; }
+.benefits { padding-top: 40px; }
 
-.empower,.access{
+.empower,.access {
     color: white;
     width: 250px;
    
 }
-.b-bckgnd{
+.b-bckgnd {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -575,41 +582,41 @@ nav ul li a:hover{
     z-index: 1
 }
 
-.b-bckgnd a{
+.b-bckgnd a {
     padding: 13px 13px;
     font-size: 24px;
     color: white;
 }
 
-.etitle{
+.etitle {
     line-height: 2;
     font-size: 20px;
     font-weight: bold;
     color: rgb(255,255,255);
 }
 
-.eabout{ font-size: 14px; }
+.eabout { font-size: 14px; }
 
-.admission-form{
+.admission-form {
     width: 50%;
     float: left;
     background-color: white;
     border-radius: 7px;
 }
 
-form{
+form {
     width: 400px;
     margin: 50px auto;
 }
 
-label{
+label {
     padding-bottom: 10px;
     display: block;
     font-size: 14px;
 }
 
 form input[type="text"],
-form input[type="password"]{
+form input[type="password"] {
     height: 24px;
     width: 380px;
     padding: 4px;
@@ -620,7 +627,7 @@ form input[type="password"]{
     background-color: rgb(249,250,251);
 }
 
-.applyn{
+.applyn {
     padding: 10px 20px;
     border-radius: 5px;
     border-radius: 5px;
@@ -631,19 +638,19 @@ form input[type="password"]{
     width: 85px;
 }
 
-.applyn:hover{
+.applyn:hover {
     background-color:rgb(252, 225, 236);
     color: rgb(243,0,103);
 }   
   
 /*student section start*/
-.students{ 
+.students { 
   width: 86%;
   margin: 70px auto;
 }
-.about-students{ display: flex; }
+.about-students { display: flex; }
 
-.about-students h4{
+.about-students h4 {
     padding-top:20px;
     font-size: 30px;
     color: rgb(37,43,51);
@@ -651,9 +658,9 @@ form input[type="password"]{
 }
 
 /*student-slider start*/
-.slides2 li{ display: none; }
+.slides2 li { display: none; }
 
-.slide2.showing{ display: block; }
+.slide2.showing { display: block; }
 
 .stud-img {
     width: 100px;
@@ -697,13 +704,6 @@ form input[type="password"]{
 
 .slider2-dot .fas.fa-circle:hover,
 .slider2-dot .fas.fa-circle.active { color: rgb(37,43,51); }
-
-
-
-   
-   
-    
-
 /*=================================
   main styling ends here
 =================================*/
@@ -711,118 +711,142 @@ form input[type="password"]{
 /*=================================
   footer styling starts here
 =================================*/ 
-footer{
+footer {
     background-color: rgb(37,43,51);
     padding-bottom: 50px;
 } 
-.footr1{
+
+.footr1 {
     width: 86%;
     margin: 0 auto;
     border-bottom: 1px solid;
     border-bottom-color: rgb(72, 81, 92);
 }
-.footer-flex{
+
+.footer-flex {
     display: flex;
     flex-wrap: wrap;
     padding: 50px 0;
 }
-.ff1{
+
+.ff1 {
     width: 217px;
-    margin-right: 78px;
+    margin-right: 50px;
 }
-h3{ margin-bottom: 25px; }
-.ff1 h3 a img{ width: 80px; }
+
+h5 { margin-bottom: 22px; }
+
+.ff1 h5 a img { 
+    width: 100px;
+    height: 40px;
+ }
+
 .Address,
 .femail,
-.fphone{
+.fphone {
     margin-bottom: 10px;
     line-height: 1.5;
 }
-.ftitle{
+
+.ftitle {
     color: rgb(0,211,219);
     font-size: 16px;
     line-height: 1;
 }
+
 .location,
 .fmail,
-.fphn{
+.fphn {
     color: rgb(118, 129, 150);
     font-size: 14px;
     line-height: 1.4;
 }
+
 .location:hover,
 .fmail:hover,
 .fphn:hover,
-.pages li a:hover{
+.pages li a:hover {
     text-decoration: underline;
     color: rgb(255,255,255);
 }
 
 .fmail,
-.fphn{display: block;}
-.ff2{width:150px;}
+.fphn { display: block; }
+.ff2 { width:150px; }
 
 .ptitle,
 .fart-title,
-.ntitle{
+.ntitle {
     color: rgb(255,255,255);
     font-weight: bold;
 }
-.pages ul,
-.farticles{margin-top: 35px;}
 
-.pages li{
+.pages ul,
+.farticles {margin-top: 35px;}
+
+.pages li {
     display: block;
     font-size: 14px;
     line-height: 1.8;
 }
+
 .pages li a,
 .art1,
 .art2,
-.adate{
+.adate {
     color: rgb(118, 129, 150);
     font-size: 14px;
 }
-.ff3{display: inline-block;}
-.farticles li{
-    display: block;
-    margin-bottom: 20px;
+
+.ff3 { 
+    margin-right: 29px;
+    display: inline-block; 
 }
 
-.fimg img{
+.farticles li { 
+    margin-bottom: 20px;
+    display: block;
+}
+
+.fimg img {
     width: 110px;
     height: 60px;
 }
-.fimg{
+
+.fimg {
     width: 110px;
     float: left;
 }
-.artbox{
+
+.artbox {
     height: 60px;
-    float: left;
     margin-left: 10px;
     margin-bottom: 20px;
+    float: left;
     line-height: 1.5;
 }
+
 .art1,
-.art2{
+.art2 {
     width: 150px;
-    font-size: 13px;
+    font-size: 12px;
     color: rgb(255,255,255);
 }
-.adate{
+
+.adate {
     display:block;
     font-size: 11px;
 }
+
 .art1:hover,
-.art2:hover{
+.art2:hover {
     color: rgb(243,0,103);
     text-decoration: underline;
 }  
-.ff4{
-    width: 348px;
-}
-.nbox{
+
+.ff4 { width: 348px; }
+
+.nbox {
     width: 88%;
     height: auto;
     border-radius: 5px;
@@ -830,6 +854,7 @@ h3{ margin-bottom: 25px; }
     margin-top: 32px;
     padding: 26px 20px;
 }
+
 .nname {
     font-weight: bold;
     color: rgb(255,255,255);
@@ -840,27 +865,33 @@ h3{ margin-bottom: 25px; }
     margin: 0;
     float: left;
 }
+
 .fornews input[type="text"] {
     width: 250px;
     margin: 0;
     border-radius: 0;
 }
+
 .ins-email {
     display: inline-block;
     border-radius: 5px;
     margin: 20px 0;
     height: 33px;
 }
+
 .send {
     float: left;
     width: 46px;
 }
+
 .send a { 
     padding: 9px 14px; 
     background-color: rgb(0,211,219);
+    color: rgb(255,255,255);
 }
 
 .ndesc { color: rgb(118, 129, 150); }
+
 .footr2 {
     width: 86%;
     margin: 20px auto;
@@ -869,25 +900,29 @@ h3{ margin-bottom: 25px; }
 .copyright {display: inline-block;}
 .cpy {color:rgb(118, 129, 150); }
 .w3L { color: rgb(255,255,255); }
+
 .ibck {
-    background-color:rgb(99, 108, 124,0.7);
     border-radius: 26px;
+    background-color:rgb(99, 108, 124,0.7);
 }
-.ibck a {padding: 8px 0;}
+
+.ibck a { padding: 8px 0; }
+
 .footr2 .social {
-    float: right;
     padding: 0;
+    float: right;
 }
+
 .toup {
     position: absolute;
     left: 1200px;
 }
+
 .toup a {
+    padding: 6px 10px;
     border-radius: 30px;
     background-color: rgb(243,0,103);
     color: white;
-    padding: 6px 10px;
-    
 }
 
 
